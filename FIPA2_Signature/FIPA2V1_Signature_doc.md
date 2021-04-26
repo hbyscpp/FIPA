@@ -36,8 +36,13 @@ PreVersionHash:"unknown"
 ```
 
 ## General rules of FIPA protocols
-
-
-
+S
 ## Rules specific to this protocol
-
+1、Message signature use ecdsa algorithm.
+2、Signature format as below：
+   {
+     "msg":"xxxxx",//raw msg
+     "address":"FKsiWy4KLHAArxy6bgjVx4QuAS8fS2FqBR",//fch address
+     "signature":"H+B8xy6lwKIpSQ06kH8MyFUwqRnH1E2FEUrJDNYr+ZoFAHlFxlJ+zj4wFPNqi658PK63ARF
+vrJezoBrzzq9OLdA=",//signature
+   }
